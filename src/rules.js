@@ -1,33 +1,9 @@
-/*eslint constructor-super: "error"*/
-/*eslint-env es6*/
+// https://github.com/airbnb/javascript
+const foo = function() {};
 
-class A {
-    constructor() {
-        super();  // This is a SyntaxError.
-    }
-}
+// https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react.js
+/*eslint jsx-quotes: ["error", "prefer-double"]*/
 
-class A extends B {
-    constructor() { }  // Would throw a ReferenceError.
-}
-
-// Classes which inherits from a non constructor are always problems.
-class A extends null {
-    constructor() {
-        super();  // Would throw a TypeError.
-    }
-}
-
-class A extends null {
-    constructor() { }  // Would throw a ReferenceError.
-}
-
-/*eslint for-direction: "error"*/
-for (var i = 0; i < 10; i--) {
-}
-
-for (var i = 10; i >= 0; i++) {
-}
-
-for (var i = 0; i > 10; i++) {
-}
+// react/no-unknown-property, Unknown property 'b' found
+// jsx-a11y/anchor-has-content, Anchors must have content and the content must be accessible by a screen reader
+<a b='c' />
