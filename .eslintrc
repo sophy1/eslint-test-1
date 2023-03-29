@@ -4,6 +4,7 @@
     "react-with-styles",
     "react-perf",
     "react-native",
+    "unsuppored-plugin"
   ],
   "extends": [
     "airbnb",
@@ -20,6 +21,7 @@
     }
   },
   "rules": {
+     "unsuppored-rule",
      "react-with-styles/no-unused-styles": "warn",
      "react-perf/jsx-no-new-object-as-prop": "error",
      "react-native/no-unused-styles": 2,
