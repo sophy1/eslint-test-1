@@ -1,0 +1,9 @@
+var x;
+delete x;
+var xx = foo;
+function bar() {
+xx:
+  for (;;) {
+    break xx;
+  }
+}
