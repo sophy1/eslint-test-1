@@ -21,7 +21,7 @@
     }
   },
   "rules": {
-     "unsuppored-rule",
+     "unsuppored-rule": 1,
      "react-with-styles/no-unused-styles": "warn",
      "react-perf/jsx-no-new-object-as-prop": "error",
      "react-native/no-unused-styles": 2,
