@@ -1,0 +1,20 @@
+{
+  "files": [ "rules.js" ],
+  "include": [ "**/*" ],
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "ES2022",
+    "removeComments": true,
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "newLine": "lf",
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+    "typeRoots": ["@types"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "inlineSourceMap": true
+  }
+}
