@@ -4,6 +4,7 @@
     "react-with-styles",
     "react-perf",
     "react-native",
+     "cypress",
     "unsuppored-plugin"
   ],
   "extends": [
@@ -30,6 +31,12 @@
      "react-native/no-color-literals": 2,
      "react-native/no-single-element-style-arrays": 2,
      "react-hooks/exhaustive-deps": 2,
+     "cypress/no-assigning-return-values": "error",
+    "cypress/no-unnecessary-waiting": "error",
+    "cypress/assertion-before-screenshot": "warn",
+    "cypress/no-force": "warn",
+    "cypress/no-async-tests": "error",
+    "cypress/no-pause": "error"
   },
   "settings": {
     "react": {
