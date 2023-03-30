@@ -5,7 +5,8 @@
     "react-perf",
     "react-native",
      "cypress",
-    "unsuppored-plugin"
+    "unsuppored-plugin",
+      'plugin:vue/vue3-recommended',
   ],
   "extends": [
     "airbnb",
