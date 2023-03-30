@@ -1,6 +1,6 @@
 {
   "files": [ "rules.js" ],
-  "include": [ "**/*" ],
+  "include": [ "**/*", "**/*.vue" ],
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "node",
