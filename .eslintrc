@@ -14,15 +14,15 @@
     "airbnb/hooks",
     "plugin:react-hooks/recommended",
     'plugin:mocha/recommended',
-    
-      'plugin:vue/vue3-recommended',
+    'plugin:vue/vue3-recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     "project": "./tsconfig.json",
      "ecmaFeatures": {
         "jsx": true
-    }
+    },
+    "extraFileExtensions": ['.vue'],
   },
   "rules": {
      "unsuppored-rule": 1,
