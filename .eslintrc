@@ -5,7 +5,6 @@
     "react-perf",
     "react-native",
      "cypress",
-    "unsuppored-plugin",
   ],
   "extends": [
     "airbnb",
