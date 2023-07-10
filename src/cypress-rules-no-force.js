@@ -7,3 +7,6 @@ cy.get('input').rightclick({force: true})
 cy.get('input').check({force: true})
 cy.get('input').select({force: true})
 cy.get('input').focus({force: true})
+cy.get('input').select({force: true})
+cy.get('input').focus({force: true})
+
